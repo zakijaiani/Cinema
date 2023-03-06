@@ -1,0 +1,787 @@
+
+  .container{
+
+    background-color: black;
+    position: relative;
+
+    .myflex-1{
+
+        .video{
+            background-color: rgb(0, 0, 0);
+            color: black;
+            margin-left: 70px;
+            position: relative;
+            z-index: 1;
+            
+    
+            
+        }
+
+        .return{
+            width: 150px;
+            height: 50px;
+            border: 5px solid gray;
+            padding-top: 10px;
+            padding-left: 12px;
+            margin-left: 10px;
+            margin-top: 5px;
+            background-color: rgb(18, 55, 43);
+            position: absolute;
+            font-family: 'Fredoka One', cursive;
+            color: wheat;
+            z-index: 12;
+            border-radius: 3px;
+            &:hover{
+                cursor: pointer;
+                background-color: rgb(0, 36, 24);
+            }
+        }
+        .videotitle{
+            color: rgb(76, 127, 172);
+            margin-left: 190px;
+            padding-top: 50px;
+            margin-top: 1px;
+            font-family: 'Rampart One', cursive;
+            font-size: 40px;
+            z-index: 2;
+            position: absolute;
+            .you{
+                color: rgb(152, 161, 200);
+            }
+            
+            
+            
+        }
+    
+        .stars{
+            position: absolute;
+            width: 300px;
+            height: 50px;
+            margin-top: 110px;
+            margin-left: 90px;
+            z-index: 3;
+            padding-top: 5px;
+            .star-2{
+                margin-left:1px;
+                width: 40px;
+                height: 40px;
+            }
+        }
+    
+        .title-2{
+            position: absolute;
+            font-family: 'Indie Flower', cursive;
+            color: rgb(26, 161, 161);
+            z-index: 4;
+            padding-top: 130px;
+            padding-left: 350px;
+            font-size: 20px;
+        }
+    
+        .episode{
+            position: absolute;
+            font-family: 'Indie Flower', cursive;
+            color: rgb(26, 161, 161);
+            z-index: 4;
+            padding-top: 130px;
+            padding-left: 650px;
+            font-size: 20px;
+            .fa-bars-staggered{
+                margin-left: 10px;
+                color: rgb(105, 119, 178);
+                &:hover {
+                    cursor: pointer;
+                    color: rgb(150, 124, 129);
+                    
+                }
+            }
+        }
+
+
+    }
+
+    
+    // end of myflex-1 style
+   .flex{
+    display: flex;
+    .myflex-2{
+
+        background-color: rgb(37, 77, 77);
+        background-color: rgb(0, 0, 0);
+        width: 800px;
+        height: 732px;
+        margin-left: 90px;
+        
+        
+
+        .calendar{
+            width: 300px;
+            height: 100px;
+            margin-left: 70px;
+            display: flex;
+            .left{
+                padding-top: 40px;
+                padding-left: 20px;
+                color: aliceblue;
+                font-size: 20px;
+                cursor: pointer;
+                &:hover {
+                    color: rgb(181, 115, 115);
+                }
+            }
+
+            .c-1{
+                cursor: pointer;
+                width: 70px;
+                height: 60px;
+                border-radius: 5px;
+                border: 1px solid wheat;
+                margin-left: 30px;
+                margin-top: 20px;
+                background-color: rgb(33, 73, 60);
+                &:hover{
+                    background-color: rgb(187, 203, 13) ;
+                }
+                .c-p{
+                    color: wheat;
+                    justify-content: space-around;
+                    text-align: center;
+                    font-family: 'Indie Flower', cursive;
+                    padding-top: 4px;
+                    font-size: 12px;
+                   
+                }
+
+            }
+
+            .c-2{
+                width: 70px;
+                height: 60px;
+                border-radius: 5px;
+                border: 1px solid wheat;
+                margin-left: 30px;
+                margin-top: 20px;
+                cursor: pointer;
+                background-color: rgb(187, 203, 13);
+                .c-p{
+                    color: wheat;
+                    justify-content: space-around;
+                    text-align: center;
+                    font-family: 'Indie Flower', cursive;
+                    padding-top: 4px;
+                    font-size: 14px;
+                }
+
+
+            }
+
+            .right{
+                padding-top: 40px;
+                padding-left: 20px;
+                color: aliceblue;
+                font-size: 20px;
+                cursor: pointer;
+                &:hover {
+                    color: rgb(181, 115, 115);
+                }
+            }
+
+            
+        }
+
+        .photos{
+
+            .balls{
+                width: 30px;
+                height: 400px;
+                position: absolute;
+                margin-left: 545px;
+                margin-top: 63px;
+                .ball-1{
+                   @include myball;
+                }
+                .ball-2{
+                    @include myball;
+                    padding-left: 8px;
+                 }
+            }
+            .pinkline {
+                width: 430px;
+                height: 65px;
+                margin-left: 85px;
+                position: absolute;
+
+            }
+
+            .shadow{
+                
+                width:615px;
+                height: 300px;
+               
+                
+            }
+
+            .chairflex{
+                width: 430px;
+                height: 400px;
+                position: absolute;
+                margin-top: 80px;
+                margin-left: 90px;
+                display: flex;
+                line-height: 40px;
+                word-spacing: 10px;
+               .chairs{
+                .chair-1{
+                    width: 30px;
+                    height: 30px;
+                    &:hover {
+                        cursor: pointer;
+                        width: 32px;
+                        height: 32px;
+                        
+                    }
+                }
+
+                .chair-2,.chair-3,.chair-4{
+                    width: 30px;
+                    height: 30px;
+                    color: red;
+                    &:hover{
+                        cursor: pointer;
+                        width: 32px;
+                        height: 32px;
+                    }
+                }
+                
+
+                
+                
+               }
+
+               .lastsection{
+                width: 400px;
+                height: 70px;
+                position: absolute;
+                margin-top: 450px;
+                display: flex;
+                .blackchair{
+                    padding-top: 10px;
+                    margin-right: 12px;
+                    margin-left: 30px;
+                }
+
+                .available{
+                    padding-top: 4px;
+                    color: rgb(54, 231, 207);
+                    font-weight: bold;
+                }
+
+                .wheatchair{
+                    padding-top: 10px;
+                    margin-right: 12px;
+                    margin-left: 30px;
+                }
+
+                .selected{
+                    padding-top: 4px;
+                    color: rgb(254, 255, 255);
+                    font-weight: bold;
+                }
+
+                .pinkchair{
+                    padding-top: 10px;
+                    margin-right: 12px;
+                    margin-left: 30px;
+                }
+
+                .blooked{
+                    padding-top: 4px;
+                    color: rgb(141, 196, 3);
+                    font-weight: bold;
+                }
+
+                .paymant{
+                    width: 170px;
+                    height: 40px;
+                    padding-left: 30px;
+                    font-size: 20px;
+                    position: absolute;
+                    margin-top: 50px;
+                    margin-left: 340px;
+                    border-radius: 20px;
+                    background-color: palevioletred;
+                    font-family: 'Fredoka One', cursive;
+                    color: aliceblue;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: rgb(173, 35, 81);
+                    }
+                }
+               }
+ 
+                
+            }
+
+            
+        }
+      
+
+    }
+    
+
+   }
+
+ }
+
+//  start 2 page
+
+.body{
+    background-color: rgb(135, 79, 38);
+    height: 1500px;
+    .container-2 {
+        width: 1170px;
+        margin: 0 auto;
+
+        .myheader{
+            width: 100%;
+            height: 100px;
+            margin-top: 20px;
+            display: flex;
+            position: relative;
+            animation: logo;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+            .mylogo{
+                width: 50px;
+                height: 50px;
+               
+            }
+
+            @keyframes logo {
+                from { top:0px}
+                to { top: 20px}
+                
+            }
+
+            .logo-2{
+                padding-left: 17px;
+                padding-top: 15px;
+                font-family: 'Climate Crisis', cursive;
+            }
+
+            .login{
+                position: fixed;
+                width: 100px;
+                height: 40px;
+                background-color: rgb(232, 144, 21);
+                border: 2px solid rgb(218, 227, 180);
+                margin-left: 820px;
+                z-index: 100;
+                border-radius: 30px;
+                padding-left: 25px;
+                padding-top: 8px;
+                font-family: 'Fredoka One', cursive;
+                &:hover {
+                    cursor: pointer;
+                    border-color:  rgb(232, 144, 21);;
+                    background-color: rgb(186, 119, 24); ;
+                }
+            }
+
+            .registration{
+                position: fixed;
+                z-index: 100;
+                width: 100px;
+                height: 40px;
+                margin-left: 930px;
+                border-radius: 30px;
+                padding-left: 18px;
+                padding-top: 10px;
+                font-family: 'Fredoka One', cursive;
+                background-color: rgb(232, 144, 21);
+                border: 2px solid rgb(218, 227, 180);
+                &:hover {
+                    cursor: pointer;
+                    border-color:  rgb(232, 144, 21);;
+                    background-color: rgb(186, 119, 24); ;
+                }
+            }
+          }
+
+        .header-2{
+           display: flex;
+           .mynav{
+            display: flex;
+            .ul-1,.ul-2{
+                display: flex;
+                    .li-1,.li-2,.li-3,.li-4 {
+                    margin-left: 20px;
+                    font-family: 'Fredoka One', cursive;
+                    cursor: pointer;
+                    font-size: 20px;
+                    margin-left: 80px;
+                    &:hover{
+                        color: rgb(241, 167, 55);
+                    }
+                  
+
+                  }
+                }
+                
+
+                .li-1{
+                    animation: li1;
+                    animation-duration: 3s;
+                    animation-fill-mode: forwards;
+                    position: relative;
+                }
+
+                @keyframes li1 {
+                    from {left:0px}
+                    to {left:150px}
+                    
+                }
+
+                .li-2{
+                    animation: li1;
+                    animation-duration: 2s;
+                    animation-fill-mode: forwards;
+                    position: relative;
+                }
+
+                @keyframes li-2 {
+                    from {left:0px}
+                    to {left:700px}
+                    
+                }
+
+                .li-3{
+                    animation: li3;
+                    animation-duration: 2s;
+                    animation-fill-mode: forwards;
+                    position: relative;
+                }
+
+                @keyframes li3 {
+                    from {right:0px}
+                    to {right:450px}
+                    
+                }
+
+                .li-4{
+                    animation: li4;
+                    animation-duration: 3s;
+                    animation-fill-mode: forwards;
+                    position: relative;
+                }
+
+                @keyframes li4 {
+                    from {right:0px}
+                    to {right:450px}
+                    
+                }
+
+                
+            }
+            .ul-2{
+                margin-left: 600px;
+            }
+           }
+
+
+           .you{
+
+            .youandposter{
+                color: rgb(255, 106, 0);
+                &:hover{
+                    color: rgb(241, 167, 55);
+                    cursor: pointer;
+                }
+            }
+
+            
+
+            
+            .title-1{
+                width: 450px;
+                height: 50px;
+                margin-top: 100px;
+                color: rgb(255, 106, 0);
+                font-size: 35px;
+                display: flex;
+                font-family: 'Anton', sans-serif;
+                word-spacing: 5px;
+                letter-spacing: 3px;
+                &:hover{
+                    color: rgb(241, 167, 55);
+                    cursor: pointer;
+                }
+                .series{
+                    color:  rgb(255, 106, 0);
+                    padding-left: 10px;
+                    font-family: 'Mynerve', cursive;
+                    
+                    &:hover{
+                        color: rgb(241, 167, 55);
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .photosection-1{
+
+                display: flex;
+
+                .photofyou{
+                    width: 350px;
+                    height: 350px;
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    border: 5px solid rgb(107, 48, 9);
+                    cursor: pointer;
+                 }
+    
+                 .you-p{
+                    white-space: 3px;
+                    line-height: 20px;
+                    width: 800px;
+                    font-size: 20px;
+                    height: 300px;
+                    padding-left: 100px;
+                    padding-top: 100px;
+                    font-family: 'Fredoka One', cursive;
+                    .about{
+                        margin-bottom: 10px;
+                        letter-spacing: 2px;
+                    }
+
+                    .genre{
+                        width: 500px;
+                        margin-bottom: 20px;
+                        color: rgba(92, 30, 4, 0.757);
+                        font-family: 'Fredoka One', cursive;
+
+                    }
+
+                    .netflix{
+                        width: 300px;
+                        margin-bottom: 10px;
+                        color: rgba(92, 30, 4, 0.757);
+                        font-family: 'Fredoka One', cursive;
+
+                    }
+                 }
+
+            }
+
+             
+           }
+
+          
+    }
+
+    .castitle{
+        width: 200px;
+        height: 50px;
+        background-color: rgb(80, 20, 9);
+        margin-top: 80px;
+        margin-left: 110px;
+        padding-left: 40px;
+        padding-top: 10px;
+        border-radius: 6px;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 10px;
+        font-size: 25px;
+        
+    }
+
+    .castsection{
+        width: 1200px;
+        height: 100px;
+        margin-top: 30px;
+        margin-left: 40px;
+        display: flex;
+
+        .left-2{
+            width: 40px;
+            height: 40px;
+            border: 3px solid rgba(133, 35, 11, 0.571);
+            padding-left: 11px;
+            padding-top: 9px;
+            color: black;
+            border-radius: 50px;
+            margin-top: 90px;
+            &:hover{
+                cursor: pointer;
+                color: rgb(157, 91, 91);
+                background-color: rgba(114, 42, 15, 0.605);
+            }
+        }
+
+        .penn{
+            margin-left: 30px;
+            height: 250px;
+            width: 200px;
+            border: 4px solid rgb(153, 113, 38);
+        }
+
+        .penn-2{
+            color: rgb(186, 157, 103);
+            padding-left: 80px;
+            padding-top: 10px;
+            font-family: 'Lobster', cursive;
+        }
+
+        .tati{
+            margin-left: 30px;
+            height: 250px;
+            width: 220px;
+            border: 4px solid rgb(153, 113, 38);
+            
+        }
+
+        .charlotte{
+            margin-left: 30px;
+            height: 250px;
+            width: 220px;
+            border: 4px solid rgb(153, 113, 38);
+        }
+
+        .right-2{
+            width: 40px;
+            height: 40px;
+            border: 3px solid rgba(133, 35, 11, 0.571);
+            padding-left: 11px;
+            padding-top: 9px;
+            color: black;
+            border-radius: 50px;
+            margin-top: 90px;
+            margin-left: 30px;
+            &:hover{
+                cursor: pointer;
+                color: rgb(157, 91, 91);
+                background-color: rgba(114, 42, 15, 0.605);
+            }
+        }
+    }
+
+    .textarea{
+        margin-top: 240px;
+        margin-left: 110px;
+        .coment{
+            width: 700px;
+            height: 200px;
+            border: 4px solid grey;
+            resize: none;
+            color: black;
+            background-color: pink;
+           
+        }
+
+        .areatitle{
+            margin-bottom: 10px;
+            font-size: 25px;
+            color: gray;
+            font-family: 'Mynerve', cursive;
+
+        }
+        .areabutton{
+            width: 100px;
+            height: 30px;
+            border: 3px solid rgb(56, 18, 18);
+            position: absolute;
+            margin-left: 10px;
+            margin-top: 170px;
+            border-radius: 3px;
+            font-family: 'Anton', sans-serif;
+            cursor: pointer;
+            &:hover{
+                background-color: rgb(67, 14, 23);
+            }
+
+            
+        }
+    }
+
+    .footer{
+        width: 100%;
+        height: 200px;
+        margin-top: 120px;
+        background-color: rgb(62, 35, 7);
+        display: flex;
+        .myfooter{
+            width: 900px;
+            width: 50px;
+            margin-left: 300px;
+            padding-top: 73px;
+            display: flex;
+            .h2{
+                margin-left: 30px;
+                font-size: 20px;
+                color: rgb(218, 130, 37);
+                cursor: pointer;
+                font-family: 'Fredoka One', cursive;
+                
+            }
+            
+
+        }
+        .mylogo-2{
+            width: 100px;
+            height: 100px;
+            margin-top: 30px;
+            margin-left: 30px;
+            position: absolute;
+        }
+
+        .logo-3{
+            padding-left: 17px;
+            padding-top: 15px;
+            font-family: 'Climate Crisis', cursive;
+            position: absolute;
+            padding-left: 150px;
+            padding-top: 75px;
+        }
+
+        .icons-2{
+            width: 200px;
+            height: 20px;
+            position: absolute;
+            margin-top: 130px;
+            margin-left: 500px;
+            display: flex;
+            .fticon-1{
+                color: wheat;
+                font-size: 30px;
+                margin-left: 25px;
+                cursor: pointer;
+
+
+            }
+        }
+
+       
+    }
+    
+        
+}
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+    
+    
+
+
+
+

@@ -1,0 +1,804 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  background-color: black;
+  position: relative;
+}
+.container .myflex-1 .video {
+  background-color: rgb(0, 0, 0);
+  color: black;
+  margin-left: 70px;
+  position: relative;
+  z-index: 1;
+}
+.container .myflex-1 .return {
+  width: 150px;
+  height: 50px;
+  border: 5px solid gray;
+  padding-top: 10px;
+  padding-left: 12px;
+  margin-left: 10px;
+  margin-top: 5px;
+  background-color: rgb(18, 55, 43);
+  position: absolute;
+  font-family: "Fredoka One", cursive;
+  color: wheat;
+  z-index: 12;
+  border-radius: 3px;
+}
+.container .myflex-1 .return:hover {
+  cursor: pointer;
+  background-color: rgb(0, 36, 24);
+}
+.container .myflex-1 .videotitle {
+  color: rgb(76, 127, 172);
+  margin-left: 190px;
+  padding-top: 50px;
+  margin-top: 1px;
+  font-family: "Rampart One", cursive;
+  font-size: 40px;
+  z-index: 2;
+  position: absolute;
+}
+.container .myflex-1 .videotitle .you {
+  color: rgb(152, 161, 200);
+}
+.container .myflex-1 .stars {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  margin-top: 110px;
+  margin-left: 90px;
+  z-index: 3;
+  padding-top: 5px;
+}
+.container .myflex-1 .stars .star-2 {
+  margin-left: 1px;
+  width: 40px;
+  height: 40px;
+}
+.container .myflex-1 .title-2 {
+  position: absolute;
+  font-family: "Indie Flower", cursive;
+  color: rgb(26, 161, 161);
+  z-index: 4;
+  padding-top: 130px;
+  padding-left: 350px;
+  font-size: 20px;
+}
+.container .myflex-1 .episode {
+  position: absolute;
+  font-family: "Indie Flower", cursive;
+  color: rgb(26, 161, 161);
+  z-index: 4;
+  padding-top: 130px;
+  padding-left: 650px;
+  font-size: 20px;
+}
+.container .myflex-1 .episode .fa-bars-staggered {
+  margin-left: 10px;
+  color: rgb(105, 119, 178);
+}
+.container .myflex-1 .episode .fa-bars-staggered:hover {
+  cursor: pointer;
+  color: rgb(150, 124, 129);
+}
+.container .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container .flex .myflex-2 {
+  background-color: rgb(37, 77, 77);
+  background-color: rgb(0, 0, 0);
+  width: 800px;
+  height: 732px;
+  margin-left: 90px;
+}
+.container .flex .myflex-2 .calendar {
+  width: 300px;
+  height: 100px;
+  margin-left: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container .flex .myflex-2 .calendar .left {
+  padding-top: 40px;
+  padding-left: 20px;
+  color: aliceblue;
+  font-size: 20px;
+  cursor: pointer;
+}
+.container .flex .myflex-2 .calendar .left:hover {
+  color: rgb(181, 115, 115);
+}
+.container .flex .myflex-2 .calendar .c-1 {
+  cursor: pointer;
+  width: 70px;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid wheat;
+  margin-left: 30px;
+  margin-top: 20px;
+  background-color: rgb(33, 73, 60);
+}
+.container .flex .myflex-2 .calendar .c-1:hover {
+  background-color: rgb(187, 203, 13);
+}
+.container .flex .myflex-2 .calendar .c-1 .c-p {
+  color: wheat;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  padding-top: 4px;
+  font-size: 12px;
+}
+.container .flex .myflex-2 .calendar .c-2 {
+  width: 70px;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid wheat;
+  margin-left: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(187, 203, 13);
+}
+.container .flex .myflex-2 .calendar .c-2 .c-p {
+  color: wheat;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  padding-top: 4px;
+  font-size: 14px;
+}
+.container .flex .myflex-2 .calendar .right {
+  padding-top: 40px;
+  padding-left: 20px;
+  color: aliceblue;
+  font-size: 20px;
+  cursor: pointer;
+}
+.container .flex .myflex-2 .calendar .right:hover {
+  color: rgb(181, 115, 115);
+}
+.container .flex .myflex-2 .photos .balls {
+  width: 30px;
+  height: 400px;
+  position: absolute;
+  margin-left: 545px;
+  margin-top: 63px;
+}
+.container .flex .myflex-2 .photos .balls .ball-1 {
+  width: 22px;
+  height: 22px;
+  padding-top: 2px;
+  padding-left: 5px;
+  font-weight: bold;
+  color: rgb(13, 39, 62);
+  border-radius: 50px;
+  background-color: aquamarine;
+  margin-top: 23px;
+}
+.container .flex .myflex-2 .photos .balls .ball-2 {
+  width: 22px;
+  height: 22px;
+  padding-top: 2px;
+  padding-left: 5px;
+  font-weight: bold;
+  color: rgb(13, 39, 62);
+  border-radius: 50px;
+  background-color: aquamarine;
+  margin-top: 23px;
+  padding-left: 8px;
+}
+.container .flex .myflex-2 .photos .pinkline {
+  width: 430px;
+  height: 65px;
+  margin-left: 85px;
+  position: absolute;
+}
+.container .flex .myflex-2 .photos .shadow {
+  width: 615px;
+  height: 300px;
+}
+.container .flex .myflex-2 .photos .chairflex {
+  width: 430px;
+  height: 400px;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 40px;
+  word-spacing: 10px;
+}
+.container .flex .myflex-2 .photos .chairflex .chairs .chair-1 {
+  width: 30px;
+  height: 30px;
+}
+.container .flex .myflex-2 .photos .chairflex .chairs .chair-1:hover {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+.container .flex .myflex-2 .photos .chairflex .chairs .chair-2, .container .flex .myflex-2 .photos .chairflex .chairs .chair-3, .container .flex .myflex-2 .photos .chairflex .chairs .chair-4 {
+  width: 30px;
+  height: 30px;
+  color: red;
+}
+.container .flex .myflex-2 .photos .chairflex .chairs .chair-2:hover, .container .flex .myflex-2 .photos .chairflex .chairs .chair-3:hover, .container .flex .myflex-2 .photos .chairflex .chairs .chair-4:hover {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+.container .flex .myflex-2 .photos .chairflex .lastsection {
+  width: 400px;
+  height: 70px;
+  position: absolute;
+  margin-top: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container .flex .myflex-2 .photos .chairflex .lastsection .blackchair {
+  padding-top: 10px;
+  margin-right: 12px;
+  margin-left: 30px;
+}
+.container .flex .myflex-2 .photos .chairflex .lastsection .available {
+  padding-top: 4px;
+  color: rgb(54, 231, 207);
+  font-weight: bold;
+}
+.container .flex .myflex-2 .photos .chairflex .lastsection .wheatchair {
+  padding-top: 10px;
+  margin-right: 12px;
+  margin-left: 30px;
+}
+.container .flex .myflex-2 .photos .chairflex .lastsection .selected {
+  padding-top: 4px;
+  color: rgb(254, 255, 255);
+  font-weight: bold;
+}
+.container .flex .myflex-2 .photos .chairflex .lastsection .pinkchair {
+  padding-top: 10px;
+  margin-right: 12px;
+  margin-left: 30px;
+}
+.container .flex .myflex-2 .photos .chairflex .lastsection .blooked {
+  padding-top: 4px;
+  color: rgb(141, 196, 3);
+  font-weight: bold;
+}
+.container .flex .myflex-2 .photos .chairflex .lastsection .paymant {
+  width: 170px;
+  height: 40px;
+  padding-left: 30px;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 340px;
+  border-radius: 20px;
+  background-color: palevioletred;
+  font-family: "Fredoka One", cursive;
+  color: aliceblue;
+}
+.container .flex .myflex-2 .photos .chairflex .lastsection .paymant:hover {
+  cursor: pointer;
+  background-color: rgb(173, 35, 81);
+}
+
+.body {
+  background-color: rgb(135, 79, 38);
+  height: 1500px;
+}
+.body .container-2 {
+  width: 1170px;
+  margin: 0 auto;
+}
+.body .container-2 .myheader {
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-animation: logo;
+          animation: logo;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.body .container-2 .myheader .mylogo {
+  width: 50px;
+  height: 50px;
+}
+@-webkit-keyframes logo {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 20px;
+  }
+}
+@keyframes logo {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 20px;
+  }
+}
+.body .container-2 .myheader .logo-2 {
+  padding-left: 17px;
+  padding-top: 15px;
+  font-family: "Climate Crisis", cursive;
+}
+.body .container-2 .myheader .login {
+  position: fixed;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(232, 144, 21);
+  border: 2px solid rgb(218, 227, 180);
+  margin-left: 820px;
+  z-index: 100;
+  border-radius: 30px;
+  padding-left: 25px;
+  padding-top: 8px;
+  font-family: "Fredoka One", cursive;
+}
+.body .container-2 .myheader .login:hover {
+  cursor: pointer;
+  border-color: rgb(232, 144, 21);
+  background-color: rgb(186, 119, 24);
+}
+.body .container-2 .myheader .registration {
+  position: fixed;
+  z-index: 100;
+  width: 100px;
+  height: 40px;
+  margin-left: 930px;
+  border-radius: 30px;
+  padding-left: 18px;
+  padding-top: 10px;
+  font-family: "Fredoka One", cursive;
+  background-color: rgb(232, 144, 21);
+  border: 2px solid rgb(218, 227, 180);
+}
+.body .container-2 .myheader .registration:hover {
+  cursor: pointer;
+  border-color: rgb(232, 144, 21);
+  background-color: rgb(186, 119, 24);
+}
+.body .container-2 .header-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.body .container-2 .header-2 .mynav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.body .container-2 .header-2 .mynav .ul-1, .body .container-2 .header-2 .mynav .ul-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.body .container-2 .header-2 .mynav .ul-1 .li-1, .body .container-2 .header-2 .mynav .ul-1 .li-2, .body .container-2 .header-2 .mynav .ul-1 .li-3, .body .container-2 .header-2 .mynav .ul-1 .li-4, .body .container-2 .header-2 .mynav .ul-2 .li-1, .body .container-2 .header-2 .mynav .ul-2 .li-2, .body .container-2 .header-2 .mynav .ul-2 .li-3, .body .container-2 .header-2 .mynav .ul-2 .li-4 {
+  margin-left: 20px;
+  font-family: "Fredoka One", cursive;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 80px;
+}
+.body .container-2 .header-2 .mynav .ul-1 .li-1:hover, .body .container-2 .header-2 .mynav .ul-1 .li-2:hover, .body .container-2 .header-2 .mynav .ul-1 .li-3:hover, .body .container-2 .header-2 .mynav .ul-1 .li-4:hover, .body .container-2 .header-2 .mynav .ul-2 .li-1:hover, .body .container-2 .header-2 .mynav .ul-2 .li-2:hover, .body .container-2 .header-2 .mynav .ul-2 .li-3:hover, .body .container-2 .header-2 .mynav .ul-2 .li-4:hover {
+  color: rgb(241, 167, 55);
+}
+.body .container-2 .header-2 .mynav .li-1 {
+  -webkit-animation: li1;
+          animation: li1;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+@-webkit-keyframes li1 {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 150px;
+  }
+}
+@keyframes li1 {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 150px;
+  }
+}
+.body .container-2 .header-2 .mynav .li-2 {
+  -webkit-animation: li1;
+          animation: li1;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+@-webkit-keyframes li-2 {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 700px;
+  }
+}
+@keyframes li-2 {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 700px;
+  }
+}
+.body .container-2 .header-2 .mynav .li-3 {
+  -webkit-animation: li3;
+          animation: li3;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+@-webkit-keyframes li3 {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 450px;
+  }
+}
+@keyframes li3 {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 450px;
+  }
+}
+.body .container-2 .header-2 .mynav .li-4 {
+  -webkit-animation: li4;
+          animation: li4;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+@-webkit-keyframes li4 {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 450px;
+  }
+}
+@keyframes li4 {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 450px;
+  }
+}
+.body .container-2 .header-2 .ul-2 {
+  margin-left: 600px;
+}
+.body .container-2 .you .youandposter {
+  color: rgb(255, 106, 0);
+}
+.body .container-2 .you .youandposter:hover {
+  color: rgb(241, 167, 55);
+  cursor: pointer;
+}
+.body .container-2 .you .title-1 {
+  width: 450px;
+  height: 50px;
+  margin-top: 100px;
+  color: rgb(255, 106, 0);
+  font-size: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Anton", sans-serif;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+}
+.body .container-2 .you .title-1:hover {
+  color: rgb(241, 167, 55);
+  cursor: pointer;
+}
+.body .container-2 .you .title-1 .series {
+  color: rgb(255, 106, 0);
+  padding-left: 10px;
+  font-family: "Mynerve", cursive;
+}
+.body .container-2 .you .title-1 .series:hover {
+  color: rgb(241, 167, 55);
+  cursor: pointer;
+}
+.body .container-2 .you .photosection-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.body .container-2 .you .photosection-1 .photofyou {
+  width: 350px;
+  height: 350px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 5px solid rgb(107, 48, 9);
+  cursor: pointer;
+}
+.body .container-2 .you .photosection-1 .you-p {
+  white-space: 3px;
+  line-height: 20px;
+  width: 800px;
+  font-size: 20px;
+  height: 300px;
+  padding-left: 100px;
+  padding-top: 100px;
+  font-family: "Fredoka One", cursive;
+}
+.body .container-2 .you .photosection-1 .you-p .about {
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+.body .container-2 .you .photosection-1 .you-p .genre {
+  width: 500px;
+  margin-bottom: 20px;
+  color: rgba(92, 30, 4, 0.757);
+  font-family: "Fredoka One", cursive;
+}
+.body .container-2 .you .photosection-1 .you-p .netflix {
+  width: 300px;
+  margin-bottom: 10px;
+  color: rgba(92, 30, 4, 0.757);
+  font-family: "Fredoka One", cursive;
+}
+.body .castitle {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(80, 20, 9);
+  margin-top: 80px;
+  margin-left: 110px;
+  padding-left: 40px;
+  padding-top: 10px;
+  border-radius: 6px;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 10px;
+  font-size: 25px;
+}
+.body .castsection {
+  width: 1200px;
+  height: 100px;
+  margin-top: 30px;
+  margin-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.body .castsection .left-2 {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(133, 35, 11, 0.571);
+  padding-left: 11px;
+  padding-top: 9px;
+  color: black;
+  border-radius: 50px;
+  margin-top: 90px;
+}
+.body .castsection .left-2:hover {
+  cursor: pointer;
+  color: rgb(157, 91, 91);
+  background-color: rgba(114, 42, 15, 0.605);
+}
+.body .castsection .penn {
+  margin-left: 30px;
+  height: 250px;
+  width: 200px;
+  border: 4px solid rgb(153, 113, 38);
+}
+.body .castsection .penn-2 {
+  color: rgb(186, 157, 103);
+  padding-left: 80px;
+  padding-top: 10px;
+  font-family: "Lobster", cursive;
+}
+.body .castsection .tati {
+  margin-left: 30px;
+  height: 250px;
+  width: 220px;
+  border: 4px solid rgb(153, 113, 38);
+}
+.body .castsection .charlotte {
+  margin-left: 30px;
+  height: 250px;
+  width: 220px;
+  border: 4px solid rgb(153, 113, 38);
+}
+.body .castsection .right-2 {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(133, 35, 11, 0.571);
+  padding-left: 11px;
+  padding-top: 9px;
+  color: black;
+  border-radius: 50px;
+  margin-top: 90px;
+  margin-left: 30px;
+}
+.body .castsection .right-2:hover {
+  cursor: pointer;
+  color: rgb(157, 91, 91);
+  background-color: rgba(114, 42, 15, 0.605);
+}
+.body .textarea {
+  margin-top: 240px;
+  margin-left: 110px;
+}
+.body .textarea .coment {
+  width: 700px;
+  height: 200px;
+  border: 4px solid grey;
+  resize: none;
+  color: black;
+  background-color: pink;
+}
+.body .textarea .areatitle {
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: gray;
+  font-family: "Mynerve", cursive;
+}
+.body .textarea .areabutton {
+  width: 100px;
+  height: 30px;
+  border: 3px solid rgb(56, 18, 18);
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 170px;
+  border-radius: 3px;
+  font-family: "Anton", sans-serif;
+  cursor: pointer;
+}
+.body .textarea .areabutton:hover {
+  background-color: rgb(67, 14, 23);
+}
+.body .footer {
+  width: 100%;
+  height: 200px;
+  margin-top: 120px;
+  background-color: rgb(62, 35, 7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.body .footer .myfooter {
+  width: 900px;
+  width: 50px;
+  margin-left: 300px;
+  padding-top: 73px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.body .footer .myfooter .h2 {
+  margin-left: 30px;
+  font-size: 20px;
+  color: rgb(218, 130, 37);
+  cursor: pointer;
+  font-family: "Fredoka One", cursive;
+}
+.body .footer .mylogo-2 {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  margin-left: 30px;
+  position: absolute;
+}
+.body .footer .logo-3 {
+  padding-left: 17px;
+  padding-top: 15px;
+  font-family: "Climate Crisis", cursive;
+  position: absolute;
+  padding-left: 150px;
+  padding-top: 75px;
+}
+.body .footer .icons-2 {
+  width: 200px;
+  height: 20px;
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.body .footer .icons-2 .fticon-1 {
+  color: wheat;
+  font-size: 30px;
+  margin-left: 25px;
+  cursor: pointer;
+}/*# sourceMappingURL=global.css.map */
