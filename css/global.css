@@ -152,14 +152,12 @@ a {
 .container .flex .myflex-2 {
   background-color: rgb(37, 77, 77);
   background-color: rgb(0, 0, 0);
-  width: 800px;
+  width: 700px;
   height: 732px;
-  margin-left: 90px;
 }
 .container .flex .myflex-2 .calendar {
   width: 300px;
   height: 100px;
-  margin-left: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -227,10 +225,10 @@ a {
 }
 .container .flex .myflex-2 .photos .balls {
   width: 30px;
-  height: 400px;
+  height: 300px;
   position: absolute;
-  margin-left: 545px;
-  margin-top: 63px;
+  margin-left: 445px;
+  margin-top: 94px;
 }
 .container .flex .myflex-2 .photos .balls .ball-1 {
   width: 22px;
@@ -241,7 +239,7 @@ a {
   color: rgb(13, 39, 62);
   border-radius: 50px;
   background-color: aquamarine;
-  margin-top: 23px;
+  margin-top: 17px;
 }
 .container .flex .myflex-2 .photos .balls .ball-2 {
   width: 22px;
@@ -252,24 +250,26 @@ a {
   color: rgb(13, 39, 62);
   border-radius: 50px;
   background-color: aquamarine;
-  margin-top: 23px;
+  margin-top: 17px;
   padding-left: 8px;
 }
 .container .flex .myflex-2 .photos .pinkline {
-  width: 430px;
-  height: 65px;
-  margin-left: 85px;
+  width: 357px;
+  height: 45px;
+  margin-left: 71px;
+  margin-top: 50px;
   position: absolute;
 }
 .container .flex .myflex-2 .photos .shadow {
-  width: 615px;
-  height: 300px;
+  width: 510px;
+  height: 200px;
+  margin-top: 50px;
 }
 .container .flex .myflex-2 .photos .chairflex {
-  width: 430px;
-  height: 400px;
+  width: 350px;
+  height: 300px;
   position: absolute;
-  margin-top: 80px;
+  margin-top: 100px;
   margin-left: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -278,29 +278,24 @@ a {
   word-spacing: 10px;
 }
 .container .flex .myflex-2 .photos .chairflex .chairs .chair-1 {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 .container .flex .myflex-2 .photos .chairflex .chairs .chair-1:hover {
   cursor: pointer;
-  width: 32px;
-  height: 32px;
+  width: 29px;
+  height: 29px;
 }
 .container .flex .myflex-2 .photos .chairflex .chairs .chair-2, .container .flex .myflex-2 .photos .chairflex .chairs .chair-3, .container .flex .myflex-2 .photos .chairflex .chairs .chair-4 {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   color: red;
 }
-.container .flex .myflex-2 .photos .chairflex .chairs .chair-2:hover, .container .flex .myflex-2 .photos .chairflex .chairs .chair-3:hover, .container .flex .myflex-2 .photos .chairflex .chairs .chair-4:hover {
-  cursor: pointer;
-  width: 32px;
-  height: 32px;
-}
 .container .flex .myflex-2 .photos .chairflex .lastsection {
-  width: 400px;
+  width: 300px;
   height: 70px;
   position: absolute;
-  margin-top: 450px;
+  margin-top: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -308,7 +303,8 @@ a {
 .container .flex .myflex-2 .photos .chairflex .lastsection .blackchair {
   padding-top: 10px;
   margin-right: 12px;
-  margin-left: 30px;
+  width: 30px;
+  height: 40px;
 }
 .container .flex .myflex-2 .photos .chairflex .lastsection .available {
   padding-top: 4px;
@@ -319,6 +315,8 @@ a {
   padding-top: 10px;
   margin-right: 12px;
   margin-left: 30px;
+  width: 30px;
+  height: 40px;
 }
 .container .flex .myflex-2 .photos .chairflex .lastsection .selected {
   padding-top: 4px;
@@ -329,6 +327,8 @@ a {
   padding-top: 10px;
   margin-right: 12px;
   margin-left: 30px;
+  width: 30px;
+  height: 40px;
 }
 .container .flex .myflex-2 .photos .chairflex .lastsection .blooked {
   padding-top: 4px;
@@ -341,8 +341,8 @@ a {
   padding-left: 30px;
   font-size: 20px;
   position: absolute;
-  margin-top: 50px;
-  margin-left: 340px;
+  margin-top: 80px;
+  margin-left: 290px;
   border-radius: 20px;
   background-color: palevioletred;
   font-family: "Fredoka One", cursive;
